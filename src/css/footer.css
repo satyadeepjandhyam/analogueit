@@ -1,0 +1,126 @@
+.footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 10px;
+    background-color: linear-gradient(180deg, #164BB4 0%, #000000 100%);
+
+}
+.ournewsletter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footerbody{
+    width: 90%;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 0px; 
+    color: white;
+}
+
+.ournewsletter{
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ournewsletter h1{
+    margin: 0px;
+}
+.ournewsletter form{
+    width: 600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.ournewsletter form input[type='text']{
+    border: none;
+    border-radius: 10px;
+    width: 330px;
+    height: 50px;
+    box-shadow: 0px 6px 4px 0px #00000040;
+    font-size: 20px;
+    outline: none;
+}
+.ournewsletter form input[type='submit']{
+    border: none;
+    width: 120px;
+    background-color: #1915D1;
+    height: 50px;
+    box-shadow: 0px 6px 4px 0px #00000040;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.useFulllinks{
+    height: 80%;
+    width: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.about1{
+    height: 80%;
+    width: 350px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.address1{
+    height: 80%;
+    width: 350px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.links{
+    height: 80%;
+    width: 100%;
+    row-gap: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+   
+}
+.address1 .links{
+    display: flex;
+    align-items: start;
+    row-gap: 20px;
+    justify-content: start;
+} 
+.address1 .links p{
+    margin: 0px;
+}
+.about1 .links p{
+text-align: center;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 40px;
+}

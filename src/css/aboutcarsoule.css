@@ -1,0 +1,64 @@
+.about-carsole-div{
+    position: relative;
+    top: 500px;
+    background-image:linear-gradient(79.73deg, #2320AC 0%, rgba(97, 38, 222, 0.75) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start ;
+    overflow: hidden;
+    column-gap: 150px;
+}
+.innerdiv{
+    width:80%;
+    height: 70%;
+    background-image:linear-gradient(72.56deg, rgba(41, 37, 245, 0.82) 2.02%, rgba(136, 134, 244, 0.67) 98.2%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    transition: 2s;
+    
+}
+.sliderImg{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+.slider-body{
+    width: 500px;
+    height: 400px;
+}
+.btn-right{
+    position: absolute;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 99;
+}
+.rightIcon{
+    font-size: 20px;
+   
+}
+.btn-left{
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
